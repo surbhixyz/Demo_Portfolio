@@ -1,0 +1,165 @@
+.img-bg {
+    width:100%;
+   height: 420px;
+    position: relative;
+}
+
+.intro-flex {
+    display: flex;
+    margin: 80px;
+    }
+
+
+
+div {
+    display: block;
+}
+
+flex-subdiv {
+    width: 50%;
+}
+
+.img-profile {
+    border-radius: 60%;
+    object-fit: cover;
+    margin: 40px;
+    height: 250px;
+    width: 400px;
+}
+
+body{
+    text-align: center;
+   font-family: sans-serif;
+    margin: 0;}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.intro {
+    text-align: justify;
+    width: 75%;}
+
+p{
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+   .end{
+    border: dotted 6px;
+   border-bottom: none; 
+    width: 50px;
+    border-color: gray;
+   margin-bottom: 60px;
+       
+   }
+
+   table,td,th{
+    
+    border-spacing: 2px;
+    border-color: grey;
+    border-collapse: collapse;
+    padding: 15px;}
+
+    .tab{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+    }
+
+th {background-color:whitesmoke;}
+
+tr:nth-child(even){
+    background-color:#f9e0e1;}
+
+ol {
+        display: block;
+        list-style-type: decimal;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;}
+
+.course-list {
+            display: flex;
+            margin: 0 80px;
+        }
+
+.course-item {
+            padding: 80px;
+        }
+
+li {display: list-item;
+    text-align: -webkit-match-parent;
+        }
+
+ ul, ol {
+    list-style: none;
+        }
+
+.course-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+        }
+.skill-dev{
+        width: 60%;
+        margin: 120px auto;
+        text-align: left;
+}
+
+.skill-img {
+    float: left;
+    margin-right: 60px;
+    height: 150px;
+    width: 150px;
+    border-radius: 60%;
+    object-fit: cover;}
+
+.skill-item {
+        padding: 80px;
+    }
+
+.contact-div {
+        background-color:#ecd4ff;
+        padding: 50px;
+    }
+
+.flex{display: flex;
+}
+
+.sub-div {
+    width: 50%;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 15px;
+    width: 80%;
+    border-radius: 25px;
+    border: 1px solid rgb(180, 180, 180);
+    color: rgb(185, 185, 185);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+    input[type=submit] {
+        background-color:darkorchid;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;}
+
+.last{
+background-color:#f9e0e1;
+padding: 50px;
+margin-top: 70px;}
+
